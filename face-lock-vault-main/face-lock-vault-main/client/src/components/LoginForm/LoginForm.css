@@ -1,0 +1,70 @@
+.loginForm {
+    display: grid;
+    place-items: center;
+    height: 100%;
+}
+
+.loginForm__wrapper {
+    display: flex;
+}
+
+.loginForm form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    width: 400px;
+    margin-right: 2rem;
+}
+
+.loginForm form h1 {
+    font-size: 1.2rem;
+    margin-bottom: 1.4rem;
+    font-weight: 700;
+}
+
+.loginForm form input {
+    margin-bottom: 1rem;
+    width: 100%;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.loginForm__helperText {
+    font-size: 0.8rem;
+    color: grey;
+    text-align: center;
+}
+
+.loginForm form button {
+    border: none;
+    padding: 0.6rem 1rem;
+    border-radius: 6px;
+    margin-top: 0.6rem;
+    cursor: pointer;
+}
+
+.loginForm__videoWrapper {
+    width: 420px;
+    height: 100%;
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.loginForm__videoWrapper video {
+    width: 100%;
+    border-radius: 6px;
+}
+
+.loginForm__videoWrapper canvas {
+    position: absolute;
+    /* opacity: 0; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
